@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/ImageProcessing.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module custom_interfaces {
+  module srv {
+    struct ImageProcessing_Request {
+      sensor_msgs::msg::Image image;
+    };
+    struct ImageProcessing_Response {
+      float object_x;
+
+      float object_y;
+
+      string direction;
+    };
+  };
+};

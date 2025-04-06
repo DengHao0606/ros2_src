@@ -1,0 +1,6 @@
+[console_scripts]
+camera_publisher = underwater_control.camera_publisher:main
+control_client = underwater_control.control_client:main
+image_processor = underwater_control.image_processor:main
+serial_comm_node = underwater_control.serial_comm_node:main
+

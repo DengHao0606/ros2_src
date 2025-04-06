@@ -1,0 +1,122 @@
+[0.074s] Invoking command in '/home/dh/underwater_ws_new/build/custom_interfaces': /usr/bin/cmake --build /home/dh/underwater_ws_new/build/custom_interfaces -- -j2 -l2
+[0.369s] [  3%] Built target custom_interfaces__cpp
+[0.373s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[0.547s] [ 22%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.561s] [ 32%] Built target custom_interfaces__rosidl_typesupport_cpp
+[0.711s] [ 41%] Built target custom_interfaces__rosidl_typesupport_c
+[0.734s] [ 51%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.828s] [ 61%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[0.871s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.961s] [ 70%] Built target custom_interfaces
+[1.058s] [ 74%] Built target custom_interfaces__py
+[1.181s] [ 80%] Built target custom_interfaces__python
+[1.353s] [ 87%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.432s] [ 93%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.493s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[1.539s] Invoked command in '/home/dh/underwater_ws_new/build/custom_interfaces' returned '0': /usr/bin/cmake --build /home/dh/underwater_ws_new/build/custom_interfaces -- -j2 -l2
+[1.600s] Invoking command in '/home/dh/underwater_ws_new/build/custom_interfaces': /usr/bin/cmake --install /home/dh/underwater_ws_new/build/custom_interfaces
+[1.638s] -- Install configuration: ""
+[1.639s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[1.639s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces
+[1.639s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg
+[1.640s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.640s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv
+[1.640s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail
+[1.650s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__struct.h
+[1.650s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__functions.h
+[1.650s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__functions.c
+[1.651s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__type_support.h
+[1.651s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/image_processing.h
+[1.651s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[1.651s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[1.652s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[1.652s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces
+[1.652s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg
+[1.652s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.653s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv
+[1.653s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail
+[1.653s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__rosidl_typesupport_fastrtps_c.h
+[1.653s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.654s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces
+[1.654s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg
+[1.654s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.654s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv
+[1.654s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail
+[1.655s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/dds_fastrtps
+[1.655s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__rosidl_typesupport_fastrtps_cpp.hpp
+[1.655s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.656s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces
+[1.656s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg
+[1.656s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.668s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv
+[1.669s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail
+[1.669s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__rosidl_typesupport_introspection_c.h
+[1.669s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__type_support.c
+[1.669s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[1.669s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[1.669s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces
+[1.669s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg
+[1.669s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.669s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv
+[1.669s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/image_processing.hpp
+[1.670s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail
+[1.670s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__traits.hpp
+[1.670s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__type_support.hpp
+[1.670s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__builder.hpp
+[1.670s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__struct.hpp
+[1.670s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces
+[1.670s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv
+[1.670s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail
+[1.671s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__type_support.cpp
+[1.671s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__rosidl_typesupport_introspection_cpp.hpp
+[1.671s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.671s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[1.671s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[1.671s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[1.672s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py
+[1.813s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv
+[1.814s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/__init__.py
+[1.815s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_image_processing_s.c
+[1.816s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_image_processing.py
+[1.817s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.817s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.822s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.827s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__python.so
+[1.830s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/srv/ImageProcessing.idl
+[1.832s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/srv/ImageProcessing.srv
+[1.833s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/srv/ImageProcessing_Request.msg
+[1.834s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/srv/ImageProcessing_Response.msg
+[1.839s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[1.840s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[1.841s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[1.842s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[1.842s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[1.849s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[1.850s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[1.850s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[1.851s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[1.852s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[1.852s] -- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/package.dsv
+[1.855s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[1.856s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport.cmake
+[1.861s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.863s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.864s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.865s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[1.866s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.873s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cppExport.cmake
+[1.874s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.875s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.876s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[1.877s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.878s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.885s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.886s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.887s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.888s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.889s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.890s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.890s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[1.891s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[1.903s] -- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/package.xml
+[1.917s] Invoked command in '/home/dh/underwater_ws_new/build/custom_interfaces' returned '0': /usr/bin/cmake --install /home/dh/underwater_ws_new/build/custom_interfaces

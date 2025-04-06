@@ -1,0 +1,613 @@
+[0.000000] (-) TimerEvent: {}
+[0.000575] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000758] (underwater_control) JobQueued: {'identifier': 'underwater_control', 'dependencies': OrderedDict([('custom_interfaces', '/home/dh/underwater_ws_new/install/custom_interfaces')])}
+[0.002501] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.083345] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.091475] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.095276] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dh/underwater_ws_new/build/custom_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/dh/underwater_ws_new/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dh'), ('SSH_AGENT_PID', '1593'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dh/dh_ws/install/learning_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dh'), ('OLDPWD', '/home/dh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dh/dh_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dh'), ('JOURNAL_STREAM', '8:52289'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1629,unix/ubuntu:/tmp/.ICE-unix/1629'), ('INVOCATION_ID', '48f4cf013ffc4608b14ad2c6bb6ce4d2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03b86567_9de0_4e4f_9b25_b113a3a47489'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dh/dh_ws/install/learning_urdf:/home/dh/dh_ws/install/learning_topic_cpp:/home/dh/dh_ws/install/learning_topic:/home/dh/dh_ws/install/learning_tf_cpp:/home/dh/dh_ws/install/learning_tf:/home/dh/dh_ws/install/learning_service_cpp:/home/dh/dh_ws/install/learning_service:/home/dh/dh_ws/install/learning_qos:/home/dh/dh_ws/install/learning_pkg_python:/home/dh/dh_ws/install/learning_pkg_c:/home/dh/dh_ws/install/learning_parameter_cpp:/home/dh/dh_ws/install/learning_parameter:/home/dh/dh_ws/install/learning_node_cpp:/home/dh/dh_ws/install/learning_node:/home/dh/dh_ws/install/learning_launch:/home/dh/dh_ws/install/learning_action_cpp:/home/dh/dh_ws/install/learning_action:/home/dh/dh_ws/install/learning_interface:/home/dh/dh_ws/install/learning_gazebo_harmonic:/home/dh/dh_ws/install/learning_gazebo:/home/dh/dh_ws/install/learning_cv:/home/dh/dh_ws/install/dh_learning_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dh/underwater_ws_new/build/custom_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dh/dh_ws/install/learning_urdf/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_topic/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_tf/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_service/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_qos/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_parameter/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_node/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_launch/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_action/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_interface/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_gazebo_harmonic/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_gazebo/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_cv/lib/python3.8/site-packages:/home/dh/dh_ws/install/dh_learning_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dh/dh_ws/install/learning_topic_cpp:/home/dh/dh_ws/install/learning_tf_cpp:/home/dh/dh_ws/install/learning_service_cpp:/home/dh/dh_ws/install/learning_pkg_c:/home/dh/dh_ws/install/learning_parameter_cpp:/home/dh/dh_ws/install/learning_node_cpp:/home/dh/dh_ws/install/learning_action_cpp:/home/dh/dh_ws/install/learning_interface')]), 'shell': False}
+[0.103541] (-) TimerEvent: {}
+[0.205955] (-) TimerEvent: {}
+[0.308074] (-) TimerEvent: {}
+[0.409584] (-) TimerEvent: {}
+[0.452842] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.509879] (-) TimerEvent: {}
+[0.597046] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.598564] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.610132] (-) TimerEvent: {}
+[0.711133] (-) TimerEvent: {}
+[0.811976] (-) TimerEvent: {}
+[0.912887] (-) TimerEvent: {}
+[1.013652] (-) TimerEvent: {}
+[1.114468] (-) TimerEvent: {}
+[1.215212] (-) TimerEvent: {}
+[1.315990] (-) TimerEvent: {}
+[1.416828] (-) TimerEvent: {}
+[1.427573] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.450459] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.476061] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.517124] (-) TimerEvent: {}
+[1.619182] (-) TimerEvent: {}
+[1.722058] (-) TimerEvent: {}
+[1.822901] (-) TimerEvent: {}
+[1.923766] (-) TimerEvent: {}
+[2.024784] (-) TimerEvent: {}
+[2.126292] (-) TimerEvent: {}
+[2.227221] (-) TimerEvent: {}
+[2.236682] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.327487] (-) TimerEvent: {}
+[2.359021] (custom_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.427977] (-) TimerEvent: {}
+[2.530664] (-) TimerEvent: {}
+[2.635423] (-) TimerEvent: {}
+[2.739120] (-) TimerEvent: {}
+[2.840939] (-) TimerEvent: {}
+[2.941805] (-) TimerEvent: {}
+[3.042586] (-) TimerEvent: {}
+[3.133980] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.142953] (-) TimerEvent: {}
+[3.245376] (-) TimerEvent: {}
+[3.347381] (-) TimerEvent: {}
+[3.449033] (-) TimerEvent: {}
+[3.550613] (-) TimerEvent: {}
+[3.651821] (-) TimerEvent: {}
+[3.753375] (-) TimerEvent: {}
+[3.855680] (-) TimerEvent: {}
+[3.957537] (-) TimerEvent: {}
+[3.996258] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[4.057974] (-) TimerEvent: {}
+[4.158917] (-) TimerEvent: {}
+[4.259882] (-) TimerEvent: {}
+[4.360917] (-) TimerEvent: {}
+[4.462403] (-) TimerEvent: {}
+[4.563255] (-) TimerEvent: {}
+[4.664173] (-) TimerEvent: {}
+[4.765866] (-) TimerEvent: {}
+[4.867097] (-) TimerEvent: {}
+[4.968296] (-) TimerEvent: {}
+[5.069899] (-) TimerEvent: {}
+[5.170970] (-) TimerEvent: {}
+[5.271763] (-) TimerEvent: {}
+[5.373111] (-) TimerEvent: {}
+[5.473984] (-) TimerEvent: {}
+[5.525494] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.574329] (-) TimerEvent: {}
+[5.675192] (-) TimerEvent: {}
+[5.776136] (-) TimerEvent: {}
+[5.877154] (-) TimerEvent: {}
+[5.978577] (-) TimerEvent: {}
+[6.079444] (-) TimerEvent: {}
+[6.180501] (-) TimerEvent: {}
+[6.281325] (-) TimerEvent: {}
+[6.286817] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.381765] (-) TimerEvent: {}
+[6.417348] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[6.426583] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[6.482062] (-) TimerEvent: {}
+[6.553795] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.559150] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[6.563097] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[6.582425] (-) TimerEvent: {}
+[6.683128] (-) TimerEvent: {}
+[6.784548] (-) TimerEvent: {}
+[6.885317] (-) TimerEvent: {}
+[6.986420] (-) TimerEvent: {}
+[7.007502] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.086675] (-) TimerEvent: {}
+[7.187668] (-) TimerEvent: {}
+[7.291925] (-) TimerEvent: {}
+[7.393248] (-) TimerEvent: {}
+[7.494018] (-) TimerEvent: {}
+[7.594886] (-) TimerEvent: {}
+[7.695628] (-) TimerEvent: {}
+[7.771445] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[7.795922] (-) TimerEvent: {}
+[7.857715] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/dh/underwater_ws_new/build/custom_interfaces\n'}
+[7.896279] (-) TimerEvent: {}
+[7.997508] (-) TimerEvent: {}
+[8.045707] (custom_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.097938] (-) TimerEvent: {}
+[8.121390] (custom_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.198213] (-) TimerEvent: {}
+[8.300801] (-) TimerEvent: {}
+[8.403043] (-) TimerEvent: {}
+[8.506609] (-) TimerEvent: {}
+[8.609104] (-) TimerEvent: {}
+[8.711588] (-) TimerEvent: {}
+[8.814215] (-) TimerEvent: {}
+[8.916642] (-) TimerEvent: {}
+[9.017961] (-) TimerEvent: {}
+[9.125451] (-) TimerEvent: {}
+[9.228119] (-) TimerEvent: {}
+[9.329146] (-) TimerEvent: {}
+[9.440563] (-) TimerEvent: {}
+[9.541319] (-) TimerEvent: {}
+[9.648000] (-) TimerEvent: {}
+[9.666995] (custom_interfaces) StdoutLine: {'line': b'[  6%] Built target custom_interfaces__cpp\n'}
+[9.748451] (-) TimerEvent: {}
+[9.762958] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_generator_c\x1b[0m\n'}
+[9.801272] (custom_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.851519] (-) TimerEvent: {}
+[9.955126] (-) TimerEvent: {}
+[9.967040] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/image_processing__functions.c.o\x1b[0m\n'}
+[10.055451] (-) TimerEvent: {}
+[10.156716] (-) TimerEvent: {}
+[10.257371] (-) TimerEvent: {}
+[10.358245] (-) TimerEvent: {}
+[10.459059] (-) TimerEvent: {}
+[10.559886] (-) TimerEvent: {}
+[10.660799] (-) TimerEvent: {}
+[10.764613] (-) TimerEvent: {}
+[10.778949] (custom_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[10.806275] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[10.865043] (-) TimerEvent: {}
+[10.959781] (custom_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/image_processing__type_support.cpp.o\x1b[0m\n'}
+[10.965596] (-) TimerEvent: {}
+[11.068167] (-) TimerEvent: {}
+[11.170248] (-) TimerEvent: {}
+[11.272438] (-) TimerEvent: {}
+[11.375140] (-) TimerEvent: {}
+[11.454068] (custom_interfaces) StdoutLine: {'line': b'[ 19%] Built target custom_interfaces__rosidl_generator_c\n'}
+[11.475540] (-) TimerEvent: {}
+[11.551015] (custom_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.575896] (-) TimerEvent: {}
+[11.680776] (-) TimerEvent: {}
+[11.783111] (-) TimerEvent: {}
+[11.885058] (-) TimerEvent: {}
+[11.987010] (-) TimerEvent: {}
+[12.090178] (-) TimerEvent: {}
+[12.192032] (-) TimerEvent: {}
+[12.294131] (-) TimerEvent: {}
+[12.396180] (-) TimerEvent: {}
+[12.498157] (-) TimerEvent: {}
+[12.600009] (-) TimerEvent: {}
+[12.702195] (-) TimerEvent: {}
+[12.804160] (-) TimerEvent: {}
+[12.906936] (-) TimerEvent: {}
+[13.009795] (-) TimerEvent: {}
+[13.056215] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[13.110118] (-) TimerEvent: {}
+[13.211963] (-) TimerEvent: {}
+[13.314518] (-) TimerEvent: {}
+[13.320925] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/image_processing__type_support.cpp.o\x1b[0m\n'}
+[13.414826] (-) TimerEvent: {}
+[13.517110] (-) TimerEvent: {}
+[13.619134] (-) TimerEvent: {}
+[13.621810] (custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.719461] (-) TimerEvent: {}
+[13.821894] (-) TimerEvent: {}
+[13.923714] (-) TimerEvent: {}
+[14.025502] (-) TimerEvent: {}
+[14.127567] (-) TimerEvent: {}
+[14.230178] (-) TimerEvent: {}
+[14.332701] (-) TimerEvent: {}
+[14.426748] (custom_interfaces) StdoutLine: {'line': b'[ 29%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[14.433024] (-) TimerEvent: {}
+[14.534965] (-) TimerEvent: {}
+[14.621613] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.636897] (-) TimerEvent: {}
+[14.744718] (-) TimerEvent: {}
+[14.846637] (-) TimerEvent: {}
+[14.949033] (-) TimerEvent: {}
+[15.056313] (-) TimerEvent: {}
+[15.164599] (-) TimerEvent: {}
+[15.270468] (-) TimerEvent: {}
+[15.396281] (-) TimerEvent: {}
+[15.498062] (-) TimerEvent: {}
+[15.600257] (-) TimerEvent: {}
+[15.702486] (-) TimerEvent: {}
+[15.804789] (-) TimerEvent: {}
+[15.901461] (custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[15.905096] (-) TimerEvent: {}
+[16.006583] (-) TimerEvent: {}
+[16.107440] (-) TimerEvent: {}
+[16.190659] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[16.208648] (-) TimerEvent: {}
+[16.309441] (-) TimerEvent: {}
+[16.413470] (-) TimerEvent: {}
+[16.478010] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/image_processing__type_support.cpp.o\x1b[0m\n'}
+[16.513836] (-) TimerEvent: {}
+[16.615433] (-) TimerEvent: {}
+[16.690633] (custom_interfaces) StdoutLine: {'line': b'[ 38%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[16.720571] (-) TimerEvent: {}
+[16.824600] (-) TimerEvent: {}
+[16.923505] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.926550] (-) TimerEvent: {}
+[17.028600] (-) TimerEvent: {}
+[17.132659] (-) TimerEvent: {}
+[17.233297] (-) TimerEvent: {}
+[17.333965] (-) TimerEvent: {}
+[17.434689] (-) TimerEvent: {}
+[17.548628] (-) TimerEvent: {}
+[17.650278] (-) TimerEvent: {}
+[17.752706] (-) TimerEvent: {}
+[17.856561] (-) TimerEvent: {}
+[17.960530] (-) TimerEvent: {}
+[18.061242] (-) TimerEvent: {}
+[18.166554] (-) TimerEvent: {}
+[18.222556] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[18.267224] (-) TimerEvent: {}
+[18.368741] (-) TimerEvent: {}
+[18.462930] (custom_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/image_processing__type_support.cpp.o\x1b[0m\n'}
+[18.469026] (-) TimerEvent: {}
+[18.570132] (-) TimerEvent: {}
+[18.671287] (-) TimerEvent: {}
+[18.739084] (custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.771576] (-) TimerEvent: {}
+[18.873082] (-) TimerEvent: {}
+[18.974342] (-) TimerEvent: {}
+[19.080659] (-) TimerEvent: {}
+[19.181746] (-) TimerEvent: {}
+[19.282823] (-) TimerEvent: {}
+[19.383813] (-) TimerEvent: {}
+[19.494163] (-) TimerEvent: {}
+[19.502971] (custom_interfaces) StdoutLine: {'line': b'[ 48%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[19.596774] (-) TimerEvent: {}
+[19.672651] (custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.690079] (custom_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[19.696999] (-) TimerEvent: {}
+[19.797947] (-) TimerEvent: {}
+[19.900667] (-) TimerEvent: {}
+[20.008655] (-) TimerEvent: {}
+[20.116614] (-) TimerEvent: {}
+[20.217578] (-) TimerEvent: {}
+[20.320757] (-) TimerEvent: {}
+[20.428581] (-) TimerEvent: {}
+[20.531649] (-) TimerEvent: {}
+[20.640580] (-) TimerEvent: {}
+[20.741606] (-) TimerEvent: {}
+[20.842656] (-) TimerEvent: {}
+[20.855441] (custom_interfaces) StdoutLine: {'line': b'[ 54%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[20.942954] (-) TimerEvent: {}
+[20.951293] (custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[21.043248] (-) TimerEvent: {}
+[21.093577] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[21.145657] (-) TimerEvent: {}
+[21.246881] (-) TimerEvent: {}
+[21.301556] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/image_processing__type_support.c.o\x1b[0m\n'}
+[21.347168] (-) TimerEvent: {}
+[21.448814] (-) TimerEvent: {}
+[21.550337] (-) TimerEvent: {}
+[21.651800] (-) TimerEvent: {}
+[21.754185] (-) TimerEvent: {}
+[21.855265] (-) TimerEvent: {}
+[21.864738] (custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[21.955507] (-) TimerEvent: {}
+[22.056510] (-) TimerEvent: {}
+[22.157960] (-) TimerEvent: {}
+[22.260711] (-) TimerEvent: {}
+[22.325005] (custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[22.361029] (-) TimerEvent: {}
+[22.373424] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[22.461366] (-) TimerEvent: {}
+[22.562334] (-) TimerEvent: {}
+[22.578486] (custom_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/image_processing__type_support_c.cpp.o\x1b[0m\n'}
+[22.662727] (-) TimerEvent: {}
+[22.763734] (-) TimerEvent: {}
+[22.864812] (-) TimerEvent: {}
+[22.965839] (-) TimerEvent: {}
+[23.066932] (-) TimerEvent: {}
+[23.167987] (-) TimerEvent: {}
+[23.269089] (-) TimerEvent: {}
+[23.370056] (-) TimerEvent: {}
+[23.470799] (-) TimerEvent: {}
+[23.571508] (-) TimerEvent: {}
+[23.672458] (-) TimerEvent: {}
+[23.773443] (-) TimerEvent: {}
+[23.874471] (-) TimerEvent: {}
+[23.975473] (-) TimerEvent: {}
+[24.066798] (custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[24.075845] (-) TimerEvent: {}
+[24.179363] (-) TimerEvent: {}
+[24.280622] (-) TimerEvent: {}
+[24.381314] (-) TimerEvent: {}
+[24.482139] (-) TimerEvent: {}
+[24.583055] (-) TimerEvent: {}
+[24.652712] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[24.683361] (-) TimerEvent: {}
+[24.785398] (-) TimerEvent: {}
+[24.823068] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces\n'}
+[24.886163] (-) TimerEvent: {}
+[24.988128] (-) TimerEvent: {}
+[25.020755] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[25.088511] (-) TimerEvent: {}
+[25.193374] (-) TimerEvent: {}
+[25.297337] (-) TimerEvent: {}
+[25.399413] (-) TimerEvent: {}
+[25.501219] (-) TimerEvent: {}
+[25.603315] (-) TimerEvent: {}
+[25.705066] (-) TimerEvent: {}
+[25.805878] (-) TimerEvent: {}
+[25.906595] (-) TimerEvent: {}
+[26.007225] (-) TimerEvent: {}
+[26.107808] (-) TimerEvent: {}
+[26.208610] (-) TimerEvent: {}
+[26.309401] (-) TimerEvent: {}
+[26.410188] (-) TimerEvent: {}
+[26.510961] (-) TimerEvent: {}
+[26.611742] (-) TimerEvent: {}
+[26.712680] (-) TimerEvent: {}
+[26.816678] (-) TimerEvent: {}
+[26.917536] (-) TimerEvent: {}
+[27.020796] (-) TimerEvent: {}
+[27.121662] (-) TimerEvent: {}
+[27.198134] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__py\n'}
+[27.222003] (-) TimerEvent: {}
+[27.305009] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__python\x1b[0m\n'}
+[27.322286] (-) TimerEvent: {}
+[27.424659] (-) TimerEvent: {}
+[27.468105] (custom_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/srv/_image_processing_s.c.o\x1b[0m\n'}
+[27.525051] (-) TimerEvent: {}
+[27.625959] (-) TimerEvent: {}
+[27.726821] (-) TimerEvent: {}
+[27.827673] (-) TimerEvent: {}
+[27.928613] (-) TimerEvent: {}
+[28.029389] (-) TimerEvent: {}
+[28.130316] (-) TimerEvent: {}
+[28.181374] (custom_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__python.so\x1b[0m\n'}
+[28.230678] (-) TimerEvent: {}
+[28.333360] (-) TimerEvent: {}
+[28.434218] (-) TimerEvent: {}
+[28.541998] (-) TimerEvent: {}
+[28.626085] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__python\n'}
+[28.642291] (-) TimerEvent: {}
+[28.744144] (-) TimerEvent: {}
+[28.821675] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[28.824315] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[28.844644] (-) TimerEvent: {}
+[28.945951] (-) TimerEvent: {}
+[29.047289] (-) TimerEvent: {}
+[29.148080] (-) TimerEvent: {}
+[29.154903] (custom_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[29.205265] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[29.252666] (-) TimerEvent: {}
+[29.360652] (-) TimerEvent: {}
+[29.464654] (-) TimerEvent: {}
+[29.565507] (-) TimerEvent: {}
+[29.673289] (-) TimerEvent: {}
+[29.774506] (-) TimerEvent: {}
+[29.875278] (-) TimerEvent: {}
+[29.943310] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[29.975576] (-) TimerEvent: {}
+[30.076455] (-) TimerEvent: {}
+[30.088745] (custom_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[30.184573] (-) TimerEvent: {}
+[30.285265] (-) TimerEvent: {}
+[30.385989] (-) TimerEvent: {}
+[30.487067] (-) TimerEvent: {}
+[30.497687] (custom_interfaces) StdoutLine: {'line': b'[ 93%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[30.587356] (-) TimerEvent: {}
+[30.666184] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[30.687777] (-) TimerEvent: {}
+[30.796607] (-) TimerEvent: {}
+[30.897893] (-) TimerEvent: {}
+[30.982146] (custom_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[30.998218] (-) TimerEvent: {}
+[31.020807] (custom_interfaces) StdoutLine: {'line': b'[ 96%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[31.098536] (-) TimerEvent: {}
+[31.199602] (-) TimerEvent: {}
+[31.300659] (-) TimerEvent: {}
+[31.401745] (-) TimerEvent: {}
+[31.468611] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[31.502104] (-) TimerEvent: {}
+[31.604679] (-) TimerEvent: {}
+[31.705695] (-) TimerEvent: {}
+[31.806550] (-) TimerEvent: {}
+[31.832564] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[31.907602] (-) TimerEvent: {}
+[31.948286] (custom_interfaces) CommandEnded: {'returncode': 0}
+[31.970349] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[32.007960] (-) TimerEvent: {}
+[32.049176] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dh/underwater_ws_new/build/custom_interfaces'], 'cwd': '/home/dh/underwater_ws_new/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dh'), ('SSH_AGENT_PID', '1593'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dh/dh_ws/install/learning_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dh'), ('OLDPWD', '/home/dh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dh/dh_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dh'), ('JOURNAL_STREAM', '8:52289'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1629,unix/ubuntu:/tmp/.ICE-unix/1629'), ('INVOCATION_ID', '48f4cf013ffc4608b14ad2c6bb6ce4d2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03b86567_9de0_4e4f_9b25_b113a3a47489'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dh/dh_ws/install/learning_urdf:/home/dh/dh_ws/install/learning_topic_cpp:/home/dh/dh_ws/install/learning_topic:/home/dh/dh_ws/install/learning_tf_cpp:/home/dh/dh_ws/install/learning_tf:/home/dh/dh_ws/install/learning_service_cpp:/home/dh/dh_ws/install/learning_service:/home/dh/dh_ws/install/learning_qos:/home/dh/dh_ws/install/learning_pkg_python:/home/dh/dh_ws/install/learning_pkg_c:/home/dh/dh_ws/install/learning_parameter_cpp:/home/dh/dh_ws/install/learning_parameter:/home/dh/dh_ws/install/learning_node_cpp:/home/dh/dh_ws/install/learning_node:/home/dh/dh_ws/install/learning_launch:/home/dh/dh_ws/install/learning_action_cpp:/home/dh/dh_ws/install/learning_action:/home/dh/dh_ws/install/learning_interface:/home/dh/dh_ws/install/learning_gazebo_harmonic:/home/dh/dh_ws/install/learning_gazebo:/home/dh/dh_ws/install/learning_cv:/home/dh/dh_ws/install/dh_learning_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dh/underwater_ws_new/build/custom_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dh/dh_ws/install/learning_urdf/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_topic/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_tf/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_service/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_qos/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_parameter/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_node/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_launch/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_action/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_interface/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_gazebo_harmonic/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_gazebo/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_cv/lib/python3.8/site-packages:/home/dh/dh_ws/install/dh_learning_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dh/dh_ws/install/learning_topic_cpp:/home/dh/dh_ws/install/learning_tf_cpp:/home/dh/dh_ws/install/learning_service_cpp:/home/dh/dh_ws/install/learning_pkg_c:/home/dh/dh_ws/install/learning_parameter_cpp:/home/dh/dh_ws/install/learning_node_cpp:/home/dh/dh_ws/install/learning_action_cpp:/home/dh/dh_ws/install/learning_interface')]), 'shell': False}
+[32.109061] (-) TimerEvent: {}
+[32.147078] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.150982] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[32.152835] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces\n'}
+[32.156247] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[32.157903] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[32.159059] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[32.160562] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[32.161891] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__struct.h\n'}
+[32.164005] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__functions.h\n'}
+[32.166199] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__functions.c\n'}
+[32.168264] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__type_support.h\n'}
+[32.170184] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/image_processing.h\n'}
+[32.173292] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[32.176024] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[32.184055] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[32.193847] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[32.195497] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces\n'}
+[32.197179] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[32.198623] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[32.199895] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[32.201372] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[32.202785] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__rosidl_typesupport_fastrtps_c.h\n'}
+[32.209076] (-) TimerEvent: {}
+[32.211743] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[32.219822] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[32.222053] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces\n'}
+[32.223399] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[32.224870] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[32.225975] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[32.227224] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[32.228592] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[32.229953] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[32.238715] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[32.245889] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[32.247343] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces\n'}
+[32.249102] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[32.250753] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[32.253862] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[32.255592] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[32.256930] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__rosidl_typesupport_introspection_c.h\n'}
+[32.258721] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__type_support.c\n'}
+[32.265597] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[32.274528] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[32.282368] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[32.288729] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[32.291415] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces\n'}
+[32.293013] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[32.294573] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[32.296157] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[32.298919] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/image_processing.hpp\n'}
+[32.301379] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[32.302811] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__traits.hpp\n'}
+[32.304841] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__type_support.hpp\n'}
+[32.306813] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__builder.hpp\n'}
+[32.308908] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__struct.hpp\n'}
+[32.309347] (-) TimerEvent: {}
+[32.311833] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces\n'}
+[32.315299] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[32.316714] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[32.318063] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__type_support.cpp\n'}
+[32.320081] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/include/custom_interfaces/srv/detail/image_processing__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.328758] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[32.336019] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[32.343459] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[32.355795] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[32.357582] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[32.359034] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[32.361574] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py\n'}
+[32.409678] (-) TimerEvent: {}
+[32.510638] (-) TimerEvent: {}
+[32.585875] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py'...\n"}
+[32.598550] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv\n'}
+[32.600118] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/__init__.py\n'}
+[32.602450] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_image_processing_s.c\n'}
+[32.604722] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_image_processing.py\n'}
+[32.610905] (-) TimerEvent: {}
+[32.612799] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[32.622658] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[32.630442] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[32.646237] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[32.657669] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[32.671661] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[32.680980] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__python.so\n'}
+[32.693459] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dh/underwater_ws_new/install/custom_interfaces/lib/libcustom_interfaces__python.so" to ""\n'}
+[32.695306] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/srv/ImageProcessing.idl\n'}
+[32.700025] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/srv/ImageProcessing.srv\n'}
+[32.702504] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/srv/ImageProcessing_Request.msg\n'}
+[32.704980] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/srv/ImageProcessing_Response.msg\n'}
+[32.706953] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[32.708842] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[32.710407] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[32.711194] (-) TimerEvent: {}
+[32.712914] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[32.715419] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[32.717149] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[32.719395] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[32.721034] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[32.722459] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[32.724285] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[32.726775] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[32.729320] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[32.732534] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[32.733979] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[32.737729] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[32.740806] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[32.744955] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[32.746602] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[32.750758] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[32.754698] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[32.755991] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[32.759710] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[32.761481] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[32.763587] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[32.765237] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[32.766609] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[32.767970] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[32.769594] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[32.771362] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[32.775175] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[32.776951] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[32.778274] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[32.779843] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[32.793389] (custom_interfaces) CommandEnded: {'returncode': 0}
+[32.811447] (-) TimerEvent: {}
+[32.912790] (-) TimerEvent: {}
+[32.957464] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[32.962566] (underwater_control) JobStarted: {'identifier': 'underwater_control'}
+[33.012969] (-) TimerEvent: {}
+[33.125951] (-) TimerEvent: {}
+[33.229281] (-) TimerEvent: {}
+[33.329938] (-) TimerEvent: {}
+[33.430653] (-) TimerEvent: {}
+[33.531505] (-) TimerEvent: {}
+[33.632631] (-) TimerEvent: {}
+[33.733410] (-) TimerEvent: {}
+[33.834207] (-) TimerEvent: {}
+[33.934913] (-) TimerEvent: {}
+[34.035734] (-) TimerEvent: {}
+[34.136633] (-) TimerEvent: {}
+[34.237486] (-) TimerEvent: {}
+[34.344710] (-) TimerEvent: {}
+[34.447792] (-) TimerEvent: {}
+[34.550256] (-) TimerEvent: {}
+[34.650993] (-) TimerEvent: {}
+[34.751735] (-) TimerEvent: {}
+[34.852699] (-) TimerEvent: {}
+[34.953505] (-) TimerEvent: {}
+[35.054352] (-) TimerEvent: {}
+[35.155175] (-) TimerEvent: {}
+[35.255988] (-) TimerEvent: {}
+[35.356899] (-) TimerEvent: {}
+[35.457684] (-) TimerEvent: {}
+[35.558462] (-) TimerEvent: {}
+[35.659276] (-) TimerEvent: {}
+[35.760094] (-) TimerEvent: {}
+[35.861021] (-) TimerEvent: {}
+[35.961804] (-) TimerEvent: {}
+[36.062631] (-) TimerEvent: {}
+[36.163403] (-) TimerEvent: {}
+[36.264183] (-) TimerEvent: {}
+[36.365139] (-) TimerEvent: {}
+[36.465894] (-) TimerEvent: {}
+[36.566638] (-) TimerEvent: {}
+[36.667436] (-) TimerEvent: {}
+[36.768243] (-) TimerEvent: {}
+[36.832120] (underwater_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/dh/underwater_ws_new/build/underwater_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/dh/underwater_ws_new/build/underwater_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dh', 'SSH_AGENT_PID': '1593', 'XDG_SESSION_TYPE': 'x11', 'ROS_PACKAGE_PATH': '/home/dh/underwater_ws_new/install/custom_interfaces/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dh/underwater_ws_new/install/custom_interfaces/lib:/home/dh/dh_ws/install/learning_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dh', 'OLDPWD': '/home/dh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1414', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dh/dh_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dh', 'JOURNAL_STREAM': '8:52289', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/dh/underwater_ws_new/install/custom_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/dh/underwater_ws_new/install/custom_interfaces/lib/pkgconfig', 'USERNAME': 'dh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/dh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1629,unix/ubuntu:/tmp/.ICE-unix/1629', 'INVOCATION_ID': '48f4cf013ffc4608b14ad2c6bb6ce4d2', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/03b86567_9de0_4e4f_9b25_b113a3a47489', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dh/dh_ws/install/learning_urdf:/home/dh/dh_ws/install/learning_topic_cpp:/home/dh/dh_ws/install/learning_topic:/home/dh/dh_ws/install/learning_tf_cpp:/home/dh/dh_ws/install/learning_tf:/home/dh/dh_ws/install/learning_service_cpp:/home/dh/dh_ws/install/learning_service:/home/dh/dh_ws/install/learning_qos:/home/dh/dh_ws/install/learning_pkg_python:/home/dh/dh_ws/install/learning_pkg_c:/home/dh/dh_ws/install/learning_parameter_cpp:/home/dh/dh_ws/install/learning_parameter:/home/dh/dh_ws/install/learning_node_cpp:/home/dh/dh_ws/install/learning_node:/home/dh/dh_ws/install/learning_launch:/home/dh/dh_ws/install/learning_action_cpp:/home/dh/dh_ws/install/learning_action:/home/dh/dh_ws/install/learning_interface:/home/dh/dh_ws/install/learning_gazebo_harmonic:/home/dh/dh_ws/install/learning_gazebo:/home/dh/dh_ws/install/learning_cv:/home/dh/dh_ws/install/dh_learning_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dh/underwater_ws_new/build/underwater_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dh/underwater_ws_new/build/underwater_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages:/home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_urdf/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_topic/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_tf/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_service/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_qos/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_parameter/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_node/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_launch/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_action/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_interface/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_gazebo_harmonic/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_gazebo/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_cv/lib/python3.8/site-packages:/home/dh/dh_ws/install/dh_learning_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/dh/underwater_ws_new/install/custom_interfaces:/home/dh/dh_ws/install/learning_topic_cpp:/home/dh/dh_ws/install/learning_tf_cpp:/home/dh/dh_ws/install/learning_service_cpp:/home/dh/dh_ws/install/learning_pkg_c:/home/dh/dh_ws/install/learning_parameter_cpp:/home/dh/dh_ws/install/learning_node_cpp:/home/dh/dh_ws/install/learning_action_cpp:/home/dh/dh_ws/install/learning_interface'}, 'shell': False}
+[36.869849] (-) TimerEvent: {}
+[36.972181] (-) TimerEvent: {}
+[37.073111] (-) TimerEvent: {}
+[37.173926] (-) TimerEvent: {}
+[37.274856] (-) TimerEvent: {}
+[37.377570] (-) TimerEvent: {}
+[37.478337] (-) TimerEvent: {}
+[37.579130] (-) TimerEvent: {}
+[37.679932] (-) TimerEvent: {}
+[37.780875] (-) TimerEvent: {}
+[37.881662] (-) TimerEvent: {}
+[37.982407] (-) TimerEvent: {}
+[38.083062] (-) TimerEvent: {}
+[38.183787] (-) TimerEvent: {}
+[38.204627] (underwater_control) StdoutLine: {'line': b'running develop\n'}
+[38.284162] (-) TimerEvent: {}
+[38.385071] (-) TimerEvent: {}
+[38.485852] (-) TimerEvent: {}
+[38.586902] (-) TimerEvent: {}
+[38.687683] (-) TimerEvent: {}
+[38.788472] (-) TimerEvent: {}
+[38.877758] (underwater_control) StdoutLine: {'line': b'running egg_info\n'}
+[38.879531] (underwater_control) StdoutLine: {'line': b'writing underwater_control.egg-info/PKG-INFO\n'}
+[38.882021] (underwater_control) StdoutLine: {'line': b'writing dependency_links to underwater_control.egg-info/dependency_links.txt\n'}
+[38.883920] (underwater_control) StdoutLine: {'line': b'writing entry points to underwater_control.egg-info/entry_points.txt\n'}
+[38.885972] (underwater_control) StdoutLine: {'line': b'writing requirements to underwater_control.egg-info/requires.txt\n'}
+[38.887869] (underwater_control) StdoutLine: {'line': b'writing top-level names to underwater_control.egg-info/top_level.txt\n'}
+[38.888657] (-) TimerEvent: {}
+[38.989366] (-) TimerEvent: {}
+[39.013742] (underwater_control) StdoutLine: {'line': b"reading manifest file 'underwater_control.egg-info/SOURCES.txt'\n"}
+[39.022438] (underwater_control) StdoutLine: {'line': b"writing manifest file 'underwater_control.egg-info/SOURCES.txt'\n"}
+[39.089727] (-) TimerEvent: {}
+[39.190491] (-) TimerEvent: {}
+[39.197754] (underwater_control) StdoutLine: {'line': b'running build_ext\n'}
+[39.203324] (underwater_control) StdoutLine: {'line': b'Creating /home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages/underwater-control.egg-link (link to .)\n'}
+[39.209988] (underwater_control) StdoutLine: {'line': b'Installing camera_publisher script to /home/dh/underwater_ws_new/install/underwater_control/lib/underwater_control\n'}
+[39.213472] (underwater_control) StdoutLine: {'line': b'Installing control_client script to /home/dh/underwater_ws_new/install/underwater_control/lib/underwater_control\n'}
+[39.215636] (underwater_control) StdoutLine: {'line': b'Installing image_processor script to /home/dh/underwater_ws_new/install/underwater_control/lib/underwater_control\n'}
+[39.216442] (underwater_control) StdoutLine: {'line': b'Installing serial_comm_node script to /home/dh/underwater_ws_new/install/underwater_control/lib/underwater_control\n'}
+[39.218880] (underwater_control) StdoutLine: {'line': b'\n'}
+[39.219222] (underwater_control) StdoutLine: {'line': b'Installed /home/dh/underwater_ws_new/build/underwater_control\n'}
+[39.220819] (underwater_control) StdoutLine: {'line': b'running symlink_data\n'}
+[39.301684] (underwater_control) CommandEnded: {'returncode': 0}
+[39.303423] (-) TimerEvent: {}
+[39.353182] (underwater_control) JobEnded: {'identifier': 'underwater_control', 'rc': 0}
+[39.359036] (-) EventReactorShutdown: {}

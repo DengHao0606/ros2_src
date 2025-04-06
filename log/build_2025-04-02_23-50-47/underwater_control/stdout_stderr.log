@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating underwater_control.egg-info
+writing underwater_control.egg-info/PKG-INFO
+writing dependency_links to underwater_control.egg-info/dependency_links.txt
+writing entry points to underwater_control.egg-info/entry_points.txt
+writing requirements to underwater_control.egg-info/requires.txt
+writing top-level names to underwater_control.egg-info/top_level.txt
+writing manifest file 'underwater_control.egg-info/SOURCES.txt'
+reading manifest file 'underwater_control.egg-info/SOURCES.txt'
+writing manifest file 'underwater_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages/site.py
+Creating /home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages/underwater-control.egg-link (link to .)
+Installing camera_publisher script to /home/dh/underwater_ws_new/install/underwater_control/lib/underwater_control
+Installing control_client script to /home/dh/underwater_ws_new/install/underwater_control/lib/underwater_control
+Installing image_processor script to /home/dh/underwater_ws_new/install/underwater_control/lib/underwater_control
+Installing serial_comm_node script to /home/dh/underwater_ws_new/install/underwater_control/lib/underwater_control
+
+Installed /home/dh/underwater_ws_new/build/underwater_control
+running symlink_data
+creating /home/dh/underwater_ws_new/install/underwater_control/share/ament_index
+creating /home/dh/underwater_ws_new/install/underwater_control/share/ament_index/resource_index
+creating /home/dh/underwater_ws_new/install/underwater_control/share/ament_index/resource_index/packages
+symbolically linking /home/dh/underwater_ws_new/build/underwater_control/resource/underwater_control -> /home/dh/underwater_ws_new/install/underwater_control/share/ament_index/resource_index/packages
+symbolically linking /home/dh/underwater_ws_new/build/underwater_control/package.xml -> /home/dh/underwater_ws_new/install/underwater_control/share/underwater_control

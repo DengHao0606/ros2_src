@@ -1,0 +1,203 @@
+[1.329s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-up-to', 'underwater_control']
+[1.329s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f32b48740a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=['underwater_control'], packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f32b48740a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f32b4874730>)
+[2.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.460s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dh/underwater_ws_new'
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[2.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[2.603s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.catkin' and name 'custom_interfaces'
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/underwater_control) by extensions ['ignore', 'ignore_ament_install']
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/underwater_control) by extension 'ignore'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/underwater_control) by extension 'ignore_ament_install'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/underwater_control) by extensions ['colcon_pkg']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/underwater_control) by extension 'colcon_pkg'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/underwater_control) by extensions ['colcon_meta']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/underwater_control) by extension 'colcon_meta'
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/underwater_control) by extensions ['ros']
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/underwater_control) by extension 'ros'
+[2.617s] DEBUG:colcon.colcon_core.package_identification:Package 'src/underwater_control' with type 'ros.ament_python' and name 'underwater_control'
+[2.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.698s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/dh/underwater_ws_new/install
+[2.701s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 22 installed packages in /home/dh/dh_ws/install
+[2.705s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/foxy
+[2.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.179s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.179s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.179s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.179s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.186s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.186s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.186s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.186s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.186s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.186s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dh/underwater_ws_new/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dh/underwater_ws_new/install/custom_interfaces', 'merge_install': False, 'path': '/home/dh/underwater_ws_new/src/custom_interfaces', 'symlink_install': True, 'test_result_base': None}
+[3.188s] Level 5:colcon.colcon_core.verb:set package 'underwater_control' build argument 'cmake_args' from command line to 'None'
+[3.188s] Level 5:colcon.colcon_core.verb:set package 'underwater_control' build argument 'cmake_target' from command line to 'None'
+[3.188s] Level 5:colcon.colcon_core.verb:set package 'underwater_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.188s] Level 5:colcon.colcon_core.verb:set package 'underwater_control' build argument 'cmake_clean_cache' from command line to 'False'
+[3.188s] Level 5:colcon.colcon_core.verb:set package 'underwater_control' build argument 'cmake_clean_first' from command line to 'False'
+[3.188s] Level 5:colcon.colcon_core.verb:set package 'underwater_control' build argument 'cmake_force_configure' from command line to 'False'
+[3.188s] Level 5:colcon.colcon_core.verb:set package 'underwater_control' build argument 'ament_cmake_args' from command line to 'None'
+[3.188s] Level 5:colcon.colcon_core.verb:set package 'underwater_control' build argument 'catkin_cmake_args' from command line to 'None'
+[3.189s] Level 5:colcon.colcon_core.verb:set package 'underwater_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.189s] DEBUG:colcon.colcon_core.verb:Building package 'underwater_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dh/underwater_ws_new/build/underwater_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dh/underwater_ws_new/install/underwater_control', 'merge_install': False, 'path': '/home/dh/underwater_ws_new/src/underwater_control', 'symlink_install': True, 'test_result_base': None}
+[3.189s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.195s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/dh/underwater_ws_new/src/custom_interfaces' with build type 'catkin'
+[3.196s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dh/underwater_ws_new/src/custom_interfaces'
+[3.211s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.211s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.212s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dh/underwater_ws_new/build/custom_interfaces': /usr/bin/cmake --build /home/dh/underwater_ws_new/build/custom_interfaces -- -j2 -l2
+[5.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dh/underwater_ws_new/build/custom_interfaces' returned '0': /usr/bin/cmake --build /home/dh/underwater_ws_new/build/custom_interfaces -- -j2 -l2
+[5.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dh/underwater_ws_new/build/custom_interfaces': /usr/bin/cmake --install /home/dh/underwater_ws_new/build/custom_interfaces
+[6.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dh/underwater_ws_new/build/custom_interfaces' returned '0': /usr/bin/cmake --install /home/dh/underwater_ws_new/build/custom_interfaces
+[6.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ros_package_path')
+[6.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/ros_package_path.ps1'
+[6.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/ros_package_path.dsv'
+[6.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/ros_package_path.sh'
+[6.208s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages'
+[6.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'catkin_pythonpath')
+[6.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/catkin_pythonpath.ps1'
+[6.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/catkin_pythonpath.dsv'
+[6.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/catkin_pythonpath.sh'
+[6.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pkg_config_path')
+[6.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/pkg_config_path.ps1'
+[6.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/pkg_config_path.dsv'
+[6.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/pkg_config_path.sh'
+[6.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pkg_config_path_multiarch')
+[6.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/pkg_config_path_multiarch.ps1'
+[6.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/pkg_config_path_multiarch.dsv'
+[6.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/pkg_config_path_multiarch.sh'
+[6.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[6.275s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/custom_interfaces' for CMake module files
+[6.278s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/custom_interfaces' for CMake config files
+[6.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[6.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[6.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[6.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[6.292s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/custom_interfaces/lib'
+[6.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[6.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[6.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[6.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[6.302s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/custom_interfaces/bin'
+[6.303s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[6.303s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages'
+[6.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[6.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[6.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[6.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[6.320s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/custom_interfaces/bin'
+[6.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[6.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[6.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/package.sh'
+[6.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/package.bash'
+[6.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/dh/underwater_ws_new/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[6.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dh/underwater_ws_new/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[6.370s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dh/underwater_ws_new/src/underwater_control' with build type 'ament_python'
+[6.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('underwater_control', 'ament_prefix_path')
+[6.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/underwater_control/share/underwater_control/hook/ament_prefix_path.ps1'
+[6.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dh/underwater_ws_new/install/underwater_control/share/underwater_control/hook/ament_prefix_path.dsv'
+[6.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/underwater_control/share/underwater_control/hook/ament_prefix_path.sh'
+[6.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.498s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dh/underwater_ws_new/src/underwater_control'
+[8.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dh/underwater_ws_new/build/underwater_control': PYTHONPATH=/home/dh/underwater_ws_new/build/underwater_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages:/home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages:/home/dh/underwater_ws_new/build/underwater_control:/home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_urdf/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_topic/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_tf/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_service/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_qos/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_parameter/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_node/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_launch/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_action/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_interface/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_gazebo_harmonic/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_gazebo/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_cv/lib/python3.8/site-packages:/home/dh/dh_ws/install/dh_learning_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dh/underwater_ws_new/build/underwater_control/build --no-deps symlink_data
+[11.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('underwater_control', 'pythonpath_develop')
+[11.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/build/underwater_control/share/underwater_control/hook/pythonpath_develop.ps1'
+[11.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dh/underwater_ws_new/build/underwater_control' returned '0': PYTHONPATH=/home/dh/underwater_ws_new/build/underwater_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages:/home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages:/home/dh/underwater_ws_new/build/underwater_control:/home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_urdf/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_topic/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_tf/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_service/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_qos/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_parameter/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_node/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_launch/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_action/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_interface/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_gazebo_harmonic/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_gazebo/lib/python3.8/site-packages:/home/dh/dh_ws/install/learning_cv/lib/python3.8/site-packages:/home/dh/dh_ws/install/dh_learning_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dh/underwater_ws_new/build/underwater_control/build --no-deps symlink_data
+[11.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dh/underwater_ws_new/build/underwater_control/share/underwater_control/hook/pythonpath_develop.dsv'
+[11.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/build/underwater_control/share/underwater_control/hook/pythonpath_develop.sh'
+[11.961s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/underwater_control' for CMake module files
+[11.963s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/underwater_control' for CMake config files
+[11.967s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/underwater_control/lib'
+[11.968s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/underwater_control/bin'
+[11.968s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/underwater_control/lib/pkgconfig/underwater_control.pc'
+[11.970s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages'
+[11.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('underwater_control', 'pythonpath')
+[11.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/underwater_control/share/underwater_control/hook/pythonpath.ps1'
+[11.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dh/underwater_ws_new/install/underwater_control/share/underwater_control/hook/pythonpath.dsv'
+[11.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dh/underwater_ws_new/install/underwater_control/share/underwater_control/hook/pythonpath.sh'
+[11.996s] Level 1:colcon.colcon_core.environment:checking '/home/dh/underwater_ws_new/install/underwater_control/bin'
+[12.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(underwater_control)
+[12.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/dh/underwater_ws_new/install/underwater_control/share/underwater_control/package.ps1'
+[12.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dh/underwater_ws_new/install/underwater_control/share/underwater_control/package.dsv'
+[12.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/dh/underwater_ws_new/install/underwater_control/share/underwater_control/package.sh'
+[12.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/dh/underwater_ws_new/install/underwater_control/share/underwater_control/package.bash'
+[12.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/dh/underwater_ws_new/install/underwater_control/share/underwater_control/package.zsh'
+[12.019s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dh/underwater_ws_new/install/underwater_control/share/colcon-core/packages/underwater_control)
+[12.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.026s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.027s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.027s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.078s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.080s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.080s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.121s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.130s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dh/underwater_ws_new/install/local_setup.ps1'
+[12.139s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dh/underwater_ws_new/install/_local_setup_util_ps1.py'
+[12.147s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dh/underwater_ws_new/install/setup.ps1'
+[12.153s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dh/underwater_ws_new/install/local_setup.sh'
+[12.159s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dh/underwater_ws_new/install/_local_setup_util_sh.py'
+[12.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dh/underwater_ws_new/install/setup.sh'
+[12.176s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dh/underwater_ws_new/install/local_setup.bash'
+[12.178s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dh/underwater_ws_new/install/setup.bash'
+[12.186s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dh/underwater_ws_new/install/local_setup.zsh'
+[12.189s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dh/underwater_ws_new/install/setup.zsh'
