@@ -1,0 +1,4 @@
+[console_scripts]
+hello_ev_client = hello_ev_service_py.hello_ev_client:main
+hello_ev_server = hello_ev_service_py.hello_ev_server:main
+

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hello_ev_interfaces/srv/String.srv
+// generated code does not contain a copyright notice
+
+
+module hello_ev_interfaces {
+  module srv {
+    struct String_Request {
+      string request;
+    };
+    struct String_Response {
+      string response;
+    };
+  };
+};

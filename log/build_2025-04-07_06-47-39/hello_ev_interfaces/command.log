@@ -1,0 +1,6 @@
+Invoking command in '/home/dh/ros2_ev_test2/build/hello_ev_interfaces': /usr/bin/cmake /home/dh/ros2_ev_test2/src/hello_ev_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/dh/ros2_ev_test2/install/hello_ev_interfaces
+Invoked command in '/home/dh/ros2_ev_test2/build/hello_ev_interfaces' returned '0': /usr/bin/cmake /home/dh/ros2_ev_test2/src/hello_ev_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/dh/ros2_ev_test2/install/hello_ev_interfaces
+Invoking command in '/home/dh/ros2_ev_test2/build/hello_ev_interfaces': /usr/bin/cmake --build /home/dh/ros2_ev_test2/build/hello_ev_interfaces -- -j2 -l2
+Invoked command in '/home/dh/ros2_ev_test2/build/hello_ev_interfaces' returned '0': /usr/bin/cmake --build /home/dh/ros2_ev_test2/build/hello_ev_interfaces -- -j2 -l2
+Invoking command in '/home/dh/ros2_ev_test2/build/hello_ev_interfaces': /usr/bin/cmake --install /home/dh/ros2_ev_test2/build/hello_ev_interfaces
+Invoked command in '/home/dh/ros2_ev_test2/build/hello_ev_interfaces' returned '0': /usr/bin/cmake --install /home/dh/ros2_ev_test2/build/hello_ev_interfaces

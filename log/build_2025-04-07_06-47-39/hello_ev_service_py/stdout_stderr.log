@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating hello_ev_service_py.egg-info
+writing hello_ev_service_py.egg-info/PKG-INFO
+writing dependency_links to hello_ev_service_py.egg-info/dependency_links.txt
+writing entry points to hello_ev_service_py.egg-info/entry_points.txt
+writing requirements to hello_ev_service_py.egg-info/requires.txt
+writing top-level names to hello_ev_service_py.egg-info/top_level.txt
+writing manifest file 'hello_ev_service_py.egg-info/SOURCES.txt'
+reading manifest file 'hello_ev_service_py.egg-info/SOURCES.txt'
+writing manifest file 'hello_ev_service_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dh/ros2_ev_test2/install/hello_ev_service_py/lib/python3.8/site-packages/site.py
+Creating /home/dh/ros2_ev_test2/install/hello_ev_service_py/lib/python3.8/site-packages/hello-ev-service-py.egg-link (link to .)
+Installing hello_ev_client script to /home/dh/ros2_ev_test2/install/hello_ev_service_py/lib/hello_ev_service_py
+Installing hello_ev_server script to /home/dh/ros2_ev_test2/install/hello_ev_service_py/lib/hello_ev_service_py
+
+Installed /home/dh/ros2_ev_test2/build/hello_ev_service_py
+running symlink_data
+creating /home/dh/ros2_ev_test2/install/hello_ev_service_py/share/ament_index
+creating /home/dh/ros2_ev_test2/install/hello_ev_service_py/share/ament_index/resource_index
+creating /home/dh/ros2_ev_test2/install/hello_ev_service_py/share/ament_index/resource_index/packages
+symbolically linking /home/dh/ros2_ev_test2/build/hello_ev_service_py/resource/hello_ev_service_py -> /home/dh/ros2_ev_test2/install/hello_ev_service_py/share/ament_index/resource_index/packages
+symbolically linking /home/dh/ros2_ev_test2/build/hello_ev_service_py/package.xml -> /home/dh/ros2_ev_test2/install/hello_ev_service_py/share/hello_ev_service_py

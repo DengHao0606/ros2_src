@@ -1,0 +1,18 @@
+[1.021s] Invoking command in '/home/dh/ros2_ev_test2/build/hello_ev_service_py': CMAKE_PREFIX_PATH=/home/dh/ros2_ev_test2/install/hello_ev_interfaces LD_LIBRARY_PATH=/home/dh/ros2_ev_test2/install/hello_ev_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/dh/ros2_ev_test2/install/hello_ev_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/dh/ros2_ev_test2/install/hello_ev_interfaces/lib/pkgconfig PYTHONPATH=/home/dh/ros2_ev_test2/build/hello_ev_service_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dh/ros2_ev_test2/install/hello_ev_service_py/lib/python3.8/site-packages:/home/dh/ros2_ev_test2/install/hello_ev_interfaces/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/dh/ros2_ev_test2/install/hello_ev_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dh/ros2_ev_test2/build/hello_ev_service_py/build --no-deps symlink_data
+[1.409s] running develop
+[1.618s] running egg_info
+[1.619s] writing hello_ev_service_py.egg-info/PKG-INFO
+[1.620s] writing dependency_links to hello_ev_service_py.egg-info/dependency_links.txt
+[1.621s] writing entry points to hello_ev_service_py.egg-info/entry_points.txt
+[1.623s] writing requirements to hello_ev_service_py.egg-info/requires.txt
+[1.624s] writing top-level names to hello_ev_service_py.egg-info/top_level.txt
+[1.676s] reading manifest file 'hello_ev_service_py.egg-info/SOURCES.txt'
+[1.678s] writing manifest file 'hello_ev_service_py.egg-info/SOURCES.txt'
+[1.736s] running build_ext
+[1.737s] Creating /home/dh/ros2_ev_test2/install/hello_ev_service_py/lib/python3.8/site-packages/hello-ev-service-py.egg-link (link to .)
+[1.739s] Installing hello_ev_client script to /home/dh/ros2_ev_test2/install/hello_ev_service_py/lib/hello_ev_service_py
+[1.740s] Installing hello_ev_server script to /home/dh/ros2_ev_test2/install/hello_ev_service_py/lib/hello_ev_service_py
+[1.740s] 
+[1.741s] Installed /home/dh/ros2_ev_test2/build/hello_ev_service_py
+[1.741s] running symlink_data
+[1.813s] Invoked command in '/home/dh/ros2_ev_test2/build/hello_ev_service_py' returned '0': CMAKE_PREFIX_PATH=/home/dh/ros2_ev_test2/install/hello_ev_interfaces LD_LIBRARY_PATH=/home/dh/ros2_ev_test2/install/hello_ev_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/dh/ros2_ev_test2/install/hello_ev_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/dh/ros2_ev_test2/install/hello_ev_interfaces/lib/pkgconfig PYTHONPATH=/home/dh/ros2_ev_test2/build/hello_ev_service_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dh/ros2_ev_test2/install/hello_ev_service_py/lib/python3.8/site-packages:/home/dh/ros2_ev_test2/install/hello_ev_interfaces/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/dh/ros2_ev_test2/install/hello_ev_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dh/ros2_ev_test2/build/hello_ev_service_py/build --no-deps symlink_data

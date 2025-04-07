@@ -1,0 +1,6 @@
+{
+  "package_name": "hello_ev_interfaces",
+  "non_idl_tuples": [
+    "/home/dh/ros2_ev_test2/src/hello_ev_interfaces:srv/String.srv"
+  ]
+}
