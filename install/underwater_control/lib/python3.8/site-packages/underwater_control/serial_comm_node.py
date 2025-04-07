@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-import serial
+import serial as pyserial
 import json
 
 class SerialCommNode(Node):
@@ -20,9 +20,9 @@ class SerialCommNode(Node):
         
         # 初始化串口
         try:
-            self.ser = serial.Serial(port, baud, timeout=1)
+            self.ser = pyserial.Serial(port, baud, timeout=1)
             self.get_logger().info(f"成功连接串口 {port}@{baud}bps")
-        except serial.SerialException as e:
+        except pyserial.SerialException as e:
             self.get_logger().error(f"串口连接失败: {str(e)}")
             self.get_logger().error("请检查: 1) 串口设备是否存在 2) 用户是否有读写权限")
             raise RuntimeError("串口初始化失败")  # 使节点退出

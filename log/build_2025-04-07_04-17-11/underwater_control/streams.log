@@ -1,0 +1,27 @@
+[0.974s] Invoking command in '/home/dh/underwater_ws_new/src/underwater_control': PYTHONPATH=/home/dh/underwater_ws_new/build/underwater_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages:/home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages:/home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/underwater_control build --build-base /home/dh/underwater_ws_new/build/underwater_control/build install --record /home/dh/underwater_ws_new/build/underwater_control/install.log --install-scripts $base/lib/underwater_control --single-version-externally-managed install_data
+[1.328s] running egg_info
+[1.331s] writing ../../build/underwater_control/underwater_control.egg-info/PKG-INFO
+[1.332s] writing dependency_links to ../../build/underwater_control/underwater_control.egg-info/dependency_links.txt
+[1.332s] writing entry points to ../../build/underwater_control/underwater_control.egg-info/entry_points.txt
+[1.333s] writing requirements to ../../build/underwater_control/underwater_control.egg-info/requires.txt
+[1.333s] writing top-level names to ../../build/underwater_control/underwater_control.egg-info/top_level.txt
+[1.383s] reading manifest file '../../build/underwater_control/underwater_control.egg-info/SOURCES.txt'
+[1.385s] writing manifest file '../../build/underwater_control/underwater_control.egg-info/SOURCES.txt'
+[1.387s] running build
+[1.387s] running build_py
+[1.387s] copying underwater_control/serial_comm_node.py -> /home/dh/underwater_ws_new/build/underwater_control/build/lib/underwater_control
+[1.387s] running install
+[1.391s] running install_lib
+[1.391s] copying /home/dh/underwater_ws_new/build/underwater_control/build/lib/underwater_control/serial_comm_node.py -> /home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages/underwater_control
+[1.391s] byte-compiling /home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages/underwater_control/serial_comm_node.py to serial_comm_node.cpython-38.pyc
+[1.395s] running install_data
+[1.395s] running install_egg_info
+[1.398s] removing '/home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages/underwater_control-0.0.0-py3.8.egg-info' (and everything under it)
+[1.409s] Copying ../../build/underwater_control/underwater_control.egg-info to /home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages/underwater_control-0.0.0-py3.8.egg-info
+[1.412s] running install_scripts
+[1.439s] Installing camera_publisher script to /home/dh/underwater_ws_new/install/underwater_control/lib/underwater_control
+[1.442s] Installing control_client script to /home/dh/underwater_ws_new/install/underwater_control/lib/underwater_control
+[1.447s] Installing image_processor script to /home/dh/underwater_ws_new/install/underwater_control/lib/underwater_control
+[1.449s] Installing serial_comm_node script to /home/dh/underwater_ws_new/install/underwater_control/lib/underwater_control
+[1.451s] writing list of installed files to '/home/dh/underwater_ws_new/build/underwater_control/install.log'
+[1.485s] Invoked command in '/home/dh/underwater_ws_new/src/underwater_control' returned '0': PYTHONPATH=/home/dh/underwater_ws_new/build/underwater_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages:/home/dh/underwater_ws_new/install/custom_interfaces/lib/python3.8/site-packages:/home/dh/underwater_ws_new/install/underwater_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/underwater_control build --build-base /home/dh/underwater_ws_new/build/underwater_control/build install --record /home/dh/underwater_ws_new/build/underwater_control/install.log --install-scripts $base/lib/underwater_control --single-version-externally-managed install_data
