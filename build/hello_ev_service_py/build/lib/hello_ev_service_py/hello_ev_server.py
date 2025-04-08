@@ -13,12 +13,15 @@ class HelloEvServer(Node):
             'hello_ev', 
             self.handle_request)
         
-        # 创建定时器，每2秒打印一次
+        """
+        # 创建定时器,每2秒打印一次
         self.timer = self.create_timer(0.5, self.timer_callback)
         self.student_info = "未收到学生信息"
         
     def timer_callback(self):
         self.get_logger().info(f"当前学生信息: {self.student_info}")
+        """
+
     
     def handle_request(self, request, response):
         self.student_info = request.request  # 保存学生信息
