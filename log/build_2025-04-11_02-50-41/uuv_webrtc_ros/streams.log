@@ -1,0 +1,56 @@
+[2.142s] Invoking command in '/home/dh/uuv_ws/src/uuv_webrtc_ros': PYTHONPATH=/home/dh/uuv_ws/build/uuv_webrtc_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_webrtc_ros build --build-base /home/dh/uuv_ws/build/uuv_webrtc_ros/build install --record /home/dh/uuv_ws/build/uuv_webrtc_ros/install.log --install-scripts $base/lib/uuv_webrtc_ros --single-version-externally-managed install_data
+[2.534s] /home/dh/.local/lib/python3.8/site-packages/setuptools/dist.py:495: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.535s] !!
+[2.535s] 
+[2.535s]         ********************************************************************************
+[2.536s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.536s]         versions. Please use the underscore name 'script_dir' instead.
+[2.536s] 
+[2.536s]         This deprecation is overdue, please update your project and remove deprecated
+[2.536s]         calls to avoid build errors in the future.
+[2.537s] 
+[2.537s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.537s]         ********************************************************************************
+[2.537s] 
+[2.537s] !!
+[2.537s]   opt = self.warn_dash_deprecation(opt, section)
+[2.580s] /home/dh/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.580s]   warnings.warn(msg)
+[2.811s] running egg_info
+[2.847s] writing ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/PKG-INFO
+[2.854s] writing dependency_links to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/dependency_links.txt
+[2.855s] writing entry points to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/entry_points.txt
+[2.856s] writing requirements to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/requires.txt
+[2.857s] writing top-level names to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/top_level.txt
+[3.189s] reading manifest file '../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/SOURCES.txt'
+[3.191s] Traceback (most recent call last):
+[3.192s]   File "setup.py", line 5, in <module>
+[3.192s]     setup(
+[3.193s]   File "/home/dh/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 117, in setup
+[3.194s]     return distutils.core.setup(**attrs)
+[3.194s]   File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_distutils/core.py", line 183, in setup
+[3.195s]     return run_commands(dist)
+[3.195s]   File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_distutils/core.py", line 199, in run_commands
+[3.196s]     dist.run_commands()
+[3.197s]   File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands
+[3.198s]     self.run_command(cmd)
+[3.198s]   File "/home/dh/.local/lib/python3.8/site-packages/setuptools/dist.py", line 999, in run_command
+[3.200s]     super().run_command(command)
+[3.200s]   File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 973, in run_command
+[3.200s]     cmd_obj.run()
+[3.200s]   File "/home/dh/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 312, in run
+[3.201s]     self.find_sources()
+[3.201s]   File "/home/dh/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[3.201s]     mm.run()
+[3.201s]   File "/home/dh/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 546, in run
+[3.202s]     self.prune_file_list()
+[3.202s]   File "/home/dh/.local/lib/python3.8/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[3.202s]     super().prune_file_list()
+[3.203s]   File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list
+[3.203s]     base_dir = self.distribution.get_fullname()
+[3.203s]   File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname
+[3.203s]     return _distribution_fullname(self.get_name(), self.get_version())
+[3.204s]   File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname
+[3.204s]     canonicalize_version(version, strip_trailing_zero=False),
+[3.204s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[3.247s] Invoked command in '/home/dh/uuv_ws/src/uuv_webrtc_ros' returned '1': PYTHONPATH=/home/dh/uuv_ws/build/uuv_webrtc_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_webrtc_ros build --build-base /home/dh/uuv_ws/build/uuv_webrtc_ros/build install --record /home/dh/uuv_ws/build/uuv_webrtc_ros/install.log --install-scripts $base/lib/uuv_webrtc_ros --single-version-externally-managed install_data

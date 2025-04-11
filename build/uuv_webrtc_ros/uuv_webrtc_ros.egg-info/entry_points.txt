@@ -1,0 +1,4 @@
+[console_scripts]
+image_publisher = uuv_webrtc_ros.image_publisher:main
+image_subscriber = uuv_webrtc_ros.image_subscriber:main
+yolov5_detector = uuv_webrtc_ros.yolov5_detector:main

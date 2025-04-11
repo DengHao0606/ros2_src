@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.001056] (uuv_webrtc_ros) JobQueued: {'identifier': 'uuv_webrtc_ros', 'dependencies': OrderedDict()}
+[0.001247] (uuv_webrtc_ros) JobStarted: {'identifier': 'uuv_webrtc_ros'}
+[0.086518] (-) TimerEvent: {}
+[0.187080] (-) TimerEvent: {}
+[0.287549] (-) TimerEvent: {}
+[0.388066] (-) TimerEvent: {}
+[0.488592] (-) TimerEvent: {}
+[0.588994] (-) TimerEvent: {}
+[0.689487] (-) TimerEvent: {}
+[0.790050] (-) TimerEvent: {}
+[0.890455] (-) TimerEvent: {}
+[0.990800] (-) TimerEvent: {}
+[1.091191] (-) TimerEvent: {}
+[1.191582] (-) TimerEvent: {}
+[1.291887] (-) TimerEvent: {}
+[1.392214] (-) TimerEvent: {}
+[1.492494] (-) TimerEvent: {}
+[1.592880] (-) TimerEvent: {}
+[1.693351] (-) TimerEvent: {}
+[1.695698] (uuv_webrtc_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/uuv_webrtc_ros', 'build', '--build-base', '/home/dh/uuv_ws/build/uuv_webrtc_ros/build', 'install', '--record', '/home/dh/uuv_ws/build/uuv_webrtc_ros/install.log', '--install-scripts', '$base/lib/uuv_webrtc_ros', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dh/uuv_ws/src/uuv_webrtc_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dh', 'SSH_AGENT_PID': '1577', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1405', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=85e74e44c7a67d6de5df3da067f79230', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dh', 'JOURNAL_STREAM': '8:49992', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/dh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1612,unix/ubuntu:/tmp/.ICE-unix/1612', 'INVOCATION_ID': 'a61c87ccd02a4021bb4ce7c2a96d9ef6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e5266ef6_adad_493c_a191_4a111e2757cd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dh/uuv_ws/build/uuv_webrtc_ros', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=85e74e44c7a67d6de5df3da067f79230', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dh/uuv_ws/build/uuv_webrtc_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.794412] (-) TimerEvent: {}
+[1.895164] (-) TimerEvent: {}
+[1.995998] (-) TimerEvent: {}
+[2.097786] (-) TimerEvent: {}
+[2.198234] (-) TimerEvent: {}
+[2.298578] (-) TimerEvent: {}
+[2.399060] (-) TimerEvent: {}
+[2.499489] (-) TimerEvent: {}
+[2.557901] (uuv_webrtc_ros) StderrLine: {'line': b"/home/dh/.local/lib/python3.8/site-packages/setuptools/dist.py:642: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.558422] (uuv_webrtc_ros) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.599628] (-) TimerEvent: {}
+[2.654341] (uuv_webrtc_ros) StdoutLine: {'line': b'running egg_info\n'}
+[2.661887] (uuv_webrtc_ros) StdoutLine: {'line': b'writing ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/PKG-INFO\n'}
+[2.662545] (uuv_webrtc_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/dependency_links.txt\n'}
+[2.663093] (uuv_webrtc_ros) StdoutLine: {'line': b'writing entry points to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/entry_points.txt\n'}
+[2.663481] (uuv_webrtc_ros) StdoutLine: {'line': b'writing requirements to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/requires.txt\n'}
+[2.663817] (uuv_webrtc_ros) StdoutLine: {'line': b'writing top-level names to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/top_level.txt\n'}
+[2.699754] (-) TimerEvent: {}
+[2.777864] (uuv_webrtc_ros) StdoutLine: {'line': b"reading manifest file '../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/SOURCES.txt'\n"}
+[2.781102] (uuv_webrtc_ros) StdoutLine: {'line': b"writing manifest file '../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/SOURCES.txt'\n"}
+[2.781698] (uuv_webrtc_ros) StdoutLine: {'line': b'running build\n'}
+[2.783463] (uuv_webrtc_ros) StdoutLine: {'line': b'running build_py\n'}
+[2.783943] (uuv_webrtc_ros) StdoutLine: {'line': b'copying uuv_webrtc_ros/image_subscriber.py -> /home/dh/uuv_ws/build/uuv_webrtc_ros/build/lib/uuv_webrtc_ros\n'}
+[2.785163] (uuv_webrtc_ros) StdoutLine: {'line': b'copying uuv_webrtc_ros/yolov11_detector.py -> /home/dh/uuv_ws/build/uuv_webrtc_ros/build/lib/uuv_webrtc_ros\n'}
+[2.785831] (uuv_webrtc_ros) StdoutLine: {'line': b'copying uuv_webrtc_ros/image_publisher.py -> /home/dh/uuv_ws/build/uuv_webrtc_ros/build/lib/uuv_webrtc_ros\n'}
+[2.786199] (uuv_webrtc_ros) StdoutLine: {'line': b'running install\n'}
+[2.793810] (uuv_webrtc_ros) StdoutLine: {'line': b'running install_lib\n'}
+[2.796143] (uuv_webrtc_ros) StdoutLine: {'line': b'copying /home/dh/uuv_ws/build/uuv_webrtc_ros/build/lib/uuv_webrtc_ros/image_subscriber.py -> /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages/uuv_webrtc_ros\n'}
+[2.796623] (uuv_webrtc_ros) StdoutLine: {'line': b'copying /home/dh/uuv_ws/build/uuv_webrtc_ros/build/lib/uuv_webrtc_ros/yolov11_detector.py -> /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages/uuv_webrtc_ros\n'}
+[2.797134] (uuv_webrtc_ros) StdoutLine: {'line': b'copying /home/dh/uuv_ws/build/uuv_webrtc_ros/build/lib/uuv_webrtc_ros/image_publisher.py -> /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages/uuv_webrtc_ros\n'}
+[2.798396] (uuv_webrtc_ros) StdoutLine: {'line': b'byte-compiling /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages/uuv_webrtc_ros/image_subscriber.py to image_subscriber.cpython-38.pyc\n'}
+[2.799852] (uuv_webrtc_ros) StdoutLine: {'line': b'byte-compiling /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages/uuv_webrtc_ros/yolov11_detector.py to yolov11_detector.cpython-38.pyc\n'}
+[2.800091] (-) TimerEvent: {}
+[2.801481] (uuv_webrtc_ros) StdoutLine: {'line': b'byte-compiling /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages/uuv_webrtc_ros/image_publisher.py to image_publisher.cpython-38.pyc\n'}
+[2.807515] (uuv_webrtc_ros) StdoutLine: {'line': b'running install_data\n'}
+[2.810026] (uuv_webrtc_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.818271] (uuv_webrtc_ros) StdoutLine: {'line': b"removing '/home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages/uuv_webrtc_ros-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.819401] (uuv_webrtc_ros) StdoutLine: {'line': b'Copying ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info to /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages/uuv_webrtc_ros-0.0.0-py3.8.egg-info\n'}
+[2.821761] (uuv_webrtc_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[2.900419] (-) TimerEvent: {}
+[2.905542] (uuv_webrtc_ros) StdoutLine: {'line': b'Installing image_publisher script to /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/uuv_webrtc_ros\n'}
+[2.908606] (uuv_webrtc_ros) StdoutLine: {'line': b'Installing image_subscriber script to /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/uuv_webrtc_ros\n'}
+[2.909345] (uuv_webrtc_ros) StdoutLine: {'line': b'Installing yolov11_detector script to /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/uuv_webrtc_ros\n'}
+[2.910249] (uuv_webrtc_ros) StdoutLine: {'line': b"writing list of installed files to '/home/dh/uuv_ws/build/uuv_webrtc_ros/install.log'\n"}
+[3.017063] (uuv_webrtc_ros) CommandEnded: {'returncode': 0}
+[3.017851] (-) TimerEvent: {}
+[3.043803] (uuv_webrtc_ros) JobEnded: {'identifier': 'uuv_webrtc_ros', 'rc': 0}
+[3.049403] (-) EventReactorShutdown: {}

@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.001473] (uuv_webrtc_ros) JobQueued: {'identifier': 'uuv_webrtc_ros', 'dependencies': OrderedDict()}
+[0.003314] (uuv_webrtc_ros) JobStarted: {'identifier': 'uuv_webrtc_ros'}
+[0.099924] (-) TimerEvent: {}
+[0.201285] (-) TimerEvent: {}
+[0.302107] (-) TimerEvent: {}
+[0.402780] (-) TimerEvent: {}
+[0.503305] (-) TimerEvent: {}
+[0.604082] (-) TimerEvent: {}
+[0.704748] (-) TimerEvent: {}
+[0.805349] (-) TimerEvent: {}
+[0.907936] (-) TimerEvent: {}
+[1.008864] (-) TimerEvent: {}
+[1.109444] (-) TimerEvent: {}
+[1.209911] (-) TimerEvent: {}
+[1.310444] (-) TimerEvent: {}
+[1.410952] (-) TimerEvent: {}
+[1.511581] (-) TimerEvent: {}
+[1.612125] (-) TimerEvent: {}
+[1.712639] (-) TimerEvent: {}
+[1.813180] (-) TimerEvent: {}
+[1.913807] (-) TimerEvent: {}
+[2.014406] (-) TimerEvent: {}
+[2.115164] (-) TimerEvent: {}
+[2.215759] (-) TimerEvent: {}
+[2.316368] (-) TimerEvent: {}
+[2.416889] (-) TimerEvent: {}
+[2.517572] (-) TimerEvent: {}
+[2.618560] (-) TimerEvent: {}
+[2.719262] (-) TimerEvent: {}
+[2.820023] (-) TimerEvent: {}
+[2.920609] (-) TimerEvent: {}
+[3.021403] (-) TimerEvent: {}
+[3.124828] (-) TimerEvent: {}
+[3.130564] (uuv_webrtc_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/uuv_webrtc_ros', 'build', '--build-base', '/home/dh/uuv_ws/build/uuv_webrtc_ros/build', 'install', '--record', '/home/dh/uuv_ws/build/uuv_webrtc_ros/install.log', '--install-scripts', '$base/lib/uuv_webrtc_ros', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dh/uuv_ws/src/uuv_webrtc_ros', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dh', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/dh/snap/code/common/.cache/gio-modules', 'SSH_AGENT_PID': '1471', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/190/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dh', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.99.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/190/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/dh/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/190/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/190/usr/share/code/code', 'MANAGERPID': '1376', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/dh/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2546', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dh/uuv_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dh', 'JOURNAL_STREAM': '8:50970', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'dh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/dh/.local/bin:/home/dh/anaconda3/condabin:/opt/ros/foxy/bin:/home/dh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dh/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1525,unix/ubuntu:/tmp/.ICE-unix/1525', 'GTK_EXE_PREFIX': '/snap/code/190/usr', 'INVOCATION_ID': '66aa085c5ba947619ab9c39020809597', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/190/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/dh/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ef31daeaf792c6c0.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/dh/snap/code/190/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-725b34e298.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/dh/snap/code/190/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/dh/uuv_ws/install/uuv_webrtc_ros:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/dh/anaconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dh/uuv_ws/build/uuv_webrtc_ros', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/dh/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/home/dh/snap/code/190/.local/share:/home/dh/snap/code/190:/snap/code/190/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dh/uuv_ws/build/uuv_webrtc_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages:/home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[3.225108] (-) TimerEvent: {}
+[3.326794] (-) TimerEvent: {}
+[3.427865] (-) TimerEvent: {}
+[3.529041] (-) TimerEvent: {}
+[3.630069] (-) TimerEvent: {}
+[3.685462] (uuv_webrtc_ros) StderrLine: {'line': b'/home/dh/.local/lib/python3.8/site-packages/setuptools/dist.py:495: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[3.686441] (uuv_webrtc_ros) StderrLine: {'line': b'!!\n'}
+[3.686742] (uuv_webrtc_ros) StderrLine: {'line': b'\n'}
+[3.687011] (uuv_webrtc_ros) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.687269] (uuv_webrtc_ros) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[3.687518] (uuv_webrtc_ros) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[3.687832] (uuv_webrtc_ros) StderrLine: {'line': b'\n'}
+[3.688068] (uuv_webrtc_ros) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[3.688225] (uuv_webrtc_ros) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[3.688376] (uuv_webrtc_ros) StderrLine: {'line': b'\n'}
+[3.688525] (uuv_webrtc_ros) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[3.688676] (uuv_webrtc_ros) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.688827] (uuv_webrtc_ros) StderrLine: {'line': b'\n'}
+[3.688975] (uuv_webrtc_ros) StderrLine: {'line': b'!!\n'}
+[3.689122] (uuv_webrtc_ros) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[3.730277] (-) TimerEvent: {}
+[3.747285] (uuv_webrtc_ros) StderrLine: {'line': b"/home/dh/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[3.747962] (uuv_webrtc_ros) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[3.830411] (-) TimerEvent: {}
+[3.931139] (-) TimerEvent: {}
+[4.031747] (-) TimerEvent: {}
+[4.072015] (uuv_webrtc_ros) StdoutLine: {'line': b'running egg_info\n'}
+[4.127256] (uuv_webrtc_ros) StdoutLine: {'line': b'writing ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/PKG-INFO\n'}
+[4.130126] (uuv_webrtc_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/dependency_links.txt\n'}
+[4.131883] (-) TimerEvent: {}
+[4.132422] (uuv_webrtc_ros) StdoutLine: {'line': b'writing entry points to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/entry_points.txt\n'}
+[4.134065] (uuv_webrtc_ros) StdoutLine: {'line': b'writing requirements to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/requires.txt\n'}
+[4.135235] (uuv_webrtc_ros) StdoutLine: {'line': b'writing top-level names to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/top_level.txt\n'}
+[4.232052] (-) TimerEvent: {}
+[4.332726] (-) TimerEvent: {}
+[4.433260] (-) TimerEvent: {}
+[4.534046] (-) TimerEvent: {}
+[4.598533] (uuv_webrtc_ros) StdoutLine: {'line': b"reading manifest file '../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/SOURCES.txt'\n"}
+[4.601616] (uuv_webrtc_ros) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.602110] (uuv_webrtc_ros) StderrLine: {'line': b'  File "setup.py", line 5, in <module>\n'}
+[4.602806] (uuv_webrtc_ros) StderrLine: {'line': b'    setup(\n'}
+[4.603123] (uuv_webrtc_ros) StderrLine: {'line': b'  File "/home/dh/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[4.603900] (uuv_webrtc_ros) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[4.604251] (uuv_webrtc_ros) StderrLine: {'line': b'  File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_distutils/core.py", line 183, in setup\n'}
+[4.604977] (uuv_webrtc_ros) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[4.605295] (uuv_webrtc_ros) StderrLine: {'line': b'  File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_distutils/core.py", line 199, in run_commands\n'}
+[4.606219] (uuv_webrtc_ros) StderrLine: {'line': b'    dist.run_commands()\n'}
+[4.606523] (uuv_webrtc_ros) StderrLine: {'line': b'  File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands\n'}
+[4.607120] (uuv_webrtc_ros) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[4.607464] (uuv_webrtc_ros) StderrLine: {'line': b'  File "/home/dh/.local/lib/python3.8/site-packages/setuptools/dist.py", line 999, in run_command\n'}
+[4.608456] (uuv_webrtc_ros) StderrLine: {'line': b'    super().run_command(command)\n'}
+[4.608758] (uuv_webrtc_ros) StderrLine: {'line': b'  File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 973, in run_command\n'}
+[4.609733] (uuv_webrtc_ros) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[4.610047] (uuv_webrtc_ros) StderrLine: {'line': b'  File "/home/dh/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 312, in run\n'}
+[4.612427] (uuv_webrtc_ros) StderrLine: {'line': b'    self.find_sources()\n'}
+[4.612928] (uuv_webrtc_ros) StderrLine: {'line': b'  File "/home/dh/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 320, in find_sources\n'}
+[4.613629] (uuv_webrtc_ros) StderrLine: {'line': b'    mm.run()\n'}
+[4.613989] (uuv_webrtc_ros) StderrLine: {'line': b'  File "/home/dh/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 546, in run\n'}
+[4.614875] (uuv_webrtc_ros) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[4.615370] (uuv_webrtc_ros) StderrLine: {'line': b'  File "/home/dh/.local/lib/python3.8/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list\n'}
+[4.618240] (uuv_webrtc_ros) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[4.618731] (uuv_webrtc_ros) StderrLine: {'line': b'  File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list\n'}
+[4.619918] (uuv_webrtc_ros) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[4.620329] (uuv_webrtc_ros) StderrLine: {'line': b'  File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname\n'}
+[4.621819] (uuv_webrtc_ros) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[4.622361] (uuv_webrtc_ros) StderrLine: {'line': b'  File "/home/dh/.local/lib/python3.8/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname\n'}
+[4.623141] (uuv_webrtc_ros) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[4.623664] (uuv_webrtc_ros) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[4.634249] (-) TimerEvent: {}
+[4.694204] (uuv_webrtc_ros) CommandEnded: {'returncode': 1}
+[4.696525] (uuv_webrtc_ros) JobEnded: {'identifier': 'uuv_webrtc_ros', 'rc': 1}
+[4.706111] (-) EventReactorShutdown: {}
