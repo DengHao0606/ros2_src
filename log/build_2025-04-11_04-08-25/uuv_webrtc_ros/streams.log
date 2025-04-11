@@ -1,0 +1,46 @@
+[1.339s] Invoking command in '/home/dh/uuv_ws/src/uuv_webrtc_ros': PYTHONPATH=/home/dh/uuv_ws/build/uuv_webrtc_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_webrtc_ros build --build-base /home/dh/uuv_ws/build/uuv_webrtc_ros/build install --record /home/dh/uuv_ws/build/uuv_webrtc_ros/install.log --install-scripts $base/lib/uuv_webrtc_ros --single-version-externally-managed install_data
+[1.589s] /home/dh/.local/lib/python3.8/site-packages/setuptools/dist.py:495: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.589s] !!
+[1.589s] 
+[1.589s]         ********************************************************************************
+[1.589s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.589s]         versions. Please use the underscore name 'script_dir' instead.
+[1.589s] 
+[1.589s]         This deprecation is overdue, please update your project and remove deprecated
+[1.589s]         calls to avoid build errors in the future.
+[1.589s] 
+[1.590s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.590s]         ********************************************************************************
+[1.590s] 
+[1.590s] !!
+[1.590s]   opt = self.warn_dash_deprecation(opt, section)
+[1.612s] /home/dh/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.612s]   warnings.warn(msg)
+[1.746s] running egg_info
+[1.766s] writing ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/PKG-INFO
+[1.768s] writing dependency_links to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/dependency_links.txt
+[1.769s] writing entry points to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/entry_points.txt
+[1.770s] writing requirements to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/requires.txt
+[1.771s] writing top-level names to ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/top_level.txt
+[1.960s] reading manifest file '../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/SOURCES.txt'
+[1.963s] writing manifest file '../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/SOURCES.txt'
+[1.965s] running build
+[1.965s] running build_py
+[1.966s] copying uuv_webrtc_ros/__init__.py -> /home/dh/uuv_ws/build/uuv_webrtc_ros/build/lib/uuv_webrtc_ros
+[1.967s] copying uuv_webrtc_ros/image_subscriber.py -> /home/dh/uuv_ws/build/uuv_webrtc_ros/build/lib/uuv_webrtc_ros
+[1.968s] copying uuv_webrtc_ros/yolov5_detector.py -> /home/dh/uuv_ws/build/uuv_webrtc_ros/build/lib/uuv_webrtc_ros
+[1.968s] copying uuv_webrtc_ros/image_publisher.py -> /home/dh/uuv_ws/build/uuv_webrtc_ros/build/lib/uuv_webrtc_ros
+[1.970s] running install
+[1.982s] running install_lib
+[2.024s] running install_data
+[2.025s] copying resource/uuv_webrtc_ros -> /home/dh/uuv_ws/install/uuv_webrtc_ros/share/ament_index/resource_index/packages
+[2.026s] copying package.xml -> /home/dh/uuv_ws/install/uuv_webrtc_ros/share/uuv_webrtc_ros
+[2.027s] running install_egg_info
+[2.065s] removing '/home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages/uuv_webrtc_ros-0.0.0-py3.8.egg-info' (and everything under it)
+[2.066s] Copying ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info to /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages/uuv_webrtc_ros-0.0.0-py3.8.egg-info
+[2.068s] running install_scripts
+[2.149s] Installing image_publisher script to /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/uuv_webrtc_ros
+[2.158s] Installing image_subscriber script to /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/uuv_webrtc_ros
+[2.158s] Installing yolov5_detector script to /home/dh/uuv_ws/install/uuv_webrtc_ros/lib/uuv_webrtc_ros
+[2.158s] writing list of installed files to '/home/dh/uuv_ws/build/uuv_webrtc_ros/install.log'
+[2.199s] Invoked command in '/home/dh/uuv_ws/src/uuv_webrtc_ros' returned '0': PYTHONPATH=/home/dh/uuv_ws/build/uuv_webrtc_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dh/uuv_ws/install/uuv_webrtc_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_webrtc_ros build --build-base /home/dh/uuv_ws/build/uuv_webrtc_ros/build install --record /home/dh/uuv_ws/build/uuv_webrtc_ros/install.log --install-scripts $base/lib/uuv_webrtc_ros --single-version-externally-managed install_data

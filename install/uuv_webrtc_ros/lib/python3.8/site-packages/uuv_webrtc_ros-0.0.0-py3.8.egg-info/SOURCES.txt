@@ -8,6 +8,7 @@ setup.py
 ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/requires.txt
 ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/top_level.txt
 ../../build/uuv_webrtc_ros/uuv_webrtc_ros.egg-info/zip-safe
+launch/yolov5_detection.launch.py
 resource/uuv_webrtc_ros
 test/test_copyright.py
 test/test_flake8.py
