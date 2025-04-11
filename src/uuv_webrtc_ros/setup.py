@@ -14,7 +14,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools', 'ultralytics>=8.0.0'],
     zip_safe=True,
     maintainer='dh',
     maintainer_email='3285391919@qq.com',
@@ -25,7 +25,7 @@ setup(
         'console_scripts': [
             'image_publisher = uuv_webrtc_ros.image_publisher:main',
             'image_subscriber = uuv_webrtc_ros.image_subscriber:main',
-            'yolov5_detector = uuv_webrtc_ros.yolov5_detector:main',
+            'yolov11_detector = uuv_webrtc_ros.yolov11_detector:main',
         ],
     },
 )

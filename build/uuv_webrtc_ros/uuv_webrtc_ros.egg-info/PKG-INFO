@@ -6,3 +6,4 @@ Maintainer: dh
 Maintainer-email: 3285391919@qq.com
 License: TODO: License declaration
 Requires-Dist: setuptools
+Requires-Dist: ultralytics>=8.0.0
